@@ -1,0 +1,132 @@
+# ---- Visual Studio / .NET ----
+.vs/
+*.suo
+*.user
+*.userosscache
+*.rsuser
+*.sln.docstates
+*.sln.iml
+*.csproj.user
+*.vbproj.user
+*.slnf.user
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+*.log
+
+# Debugging / profiling
+*.pdb
+*.mdb
+*.opendb
+*.cache
+*.svclog
+*.psess
+*.vsp
+*.vspx
+
+# Rider / ReSharper
+.idea/
+.ReSharper*/
+*_ReSharper.Caches/
+*.DotSettings.user
+
+# Visual C++ (rare in C# solutions, safe to ignore)
+*.VC.db
+*.VC.VC.opendb
+
+# ---- VS Code ----
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# ---- NuGet ----
+packages/
+*.nupkg
+*.snupkg
+.nuget/NuGet.Config.user
+
+# ---- ASP.NET Core / Razor Pages ----
+appsettings.*.local.json
+secrets.json
+# LibMan libraries (restore con libman)
+wwwroot/lib/
+
+# Publicaciones / artefactos
+[Bb]uild/
+artifacts/
+[Aa]ppPackages/
+Properties/PublishProfiles/*.pubxml.user
+*.publishsettings
+
+# ---- Pruebas / Cobertura ----
+TestResults/
+.vstest/
+*.coverage
+*.coveragexml
+coverage*/
+.coverage
+.coveragexml
+.coverlet/
+BenchmarkDotNet.Artifacts/
+
+# ---- Bases de datos locales ----
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+# SQL Server LocalDB
+*.mdf
+*.ldf
+
+# ---- Frontend / Node ----
+node_modules/
+bower_components/
+dist/
+build/
+.temp/
+.tmp/
+.parcel-cache/
+.npm/
+.yarn/*
+!.yarn/patches/
+!.yarn/plugins/
+!.yarn/releases/
+!.yarn/sdks/
+!.yarn/versions/
+
+# ---- Sistemas operativos ----
+# Windows
+[Dd]esktop.ini
+[Tt]humbs.db
+ehthumbs.db
+$RECYCLE.BIN/
+# macOS
+*.DS_Store
+*.AppleDouble
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+# Linux/Unix
+*.swp
+*.swo
+
+# ---- Herramientas varias ----
+.sonarqube/
+StyleCopReport.*
+
+# ---- Variables de entorno ----
+.env
+.env.*.local
+
+# ---- Misceláneo ----
+*.orig
+*.rej

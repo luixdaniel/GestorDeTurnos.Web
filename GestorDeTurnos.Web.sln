@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36429.23 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestorDeTurnos.Web", "GestorDeTurnos.Web\GestorDeTurnos.Web.csproj", "{CDC8901F-AE67-4DF8-9161-76B396B3202B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{3370F944-D412-4781-A3D1-E7EDDCACE3B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDC8901F-AE67-4DF8-9161-76B396B3202B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC8901F-AE67-4DF8-9161-76B396B3202B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC8901F-AE67-4DF8-9161-76B396B3202B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC8901F-AE67-4DF8-9161-76B396B3202B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3370F944-D412-4781-A3D1-E7EDDCACE3B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3370F944-D412-4781-A3D1-E7EDDCACE3B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3370F944-D412-4781-A3D1-E7EDDCACE3B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3370F944-D412-4781-A3D1-E7EDDCACE3B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49D8FCC5-2E0A-4B1A-A651-FC7F546D0E3D}
+	EndGlobalSection
+EndGlobal
